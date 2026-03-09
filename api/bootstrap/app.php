@@ -18,5 +18,24 @@ return Application::configure(basePath: dirname(__DIR__))
 
     })
     ->withExceptions(function (Exceptions $exceptions): void {
-        //
+
+        $exceptions->report(function (Throwable $e) {
+
+            $category = "UNKNOWN";
+
+            if ($e instanceof \Illuminate\Validation\ValidationException) {
+                $category = "VALIDATION_ERROR";
+            } elseif ($e instanceof \Illuminate\Database\QueryException) {
+                $category = "DATABASE_ERROR";
+            } elseif ($e instanceof \Exception) {
+                $category = "SYSTEM_ERROR";
+            }
+
+            \Log::error("application_error", [
+                "error_category" => $category,
+                "message" => $e->getMessage()
+            ]);
+
+        });
+
     })->create();
