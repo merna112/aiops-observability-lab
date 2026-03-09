@@ -65,3 +65,13 @@ Route::post('/validate', function (Request $request) {
         "data" => $validated
     ]);
 });
+
+
+Route::get('/metrics', function () {
+
+    $metrics = "# HELP http_requests_total Total requests\n";
+    $metrics .= "# TYPE http_requests_total counter\n";
+
+    return response($metrics, 200)
+        ->header('Content-Type', 'text/plain');
+});
