@@ -69,9 +69,10 @@ Route::post('/validate', function (Request $request) {
 
 Route::get('/metrics', function () {
 
-    $metrics = "# HELP http_requests_total Total requests\n";
-    $metrics .= "# TYPE http_requests_total counter\n";
+    $registry = app(\Prometheus\CollectorRegistry::class);
+    $renderer = new \Prometheus\RenderTextFormat();
+    $result = $renderer->render($registry->getMetricFamilySamples());
 
-    return response($metrics, 200)
-        ->header('Content-Type', 'text/plain');
+    return response($result, 200)
+        ->header('Content-Type', 'text/plain; version=0.0.4; charset=utf-8');
 });
