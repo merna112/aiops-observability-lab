@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
+
 
 Route::get('/normal', function () {
     return response()->json([
@@ -35,4 +37,18 @@ Route::get('/random', function () {
     }
 
     throw new Exception("random failure");
+});
+
+Route::get('/db', function (Request $request) {
+
+    if ($request->query('fail')) {
+        DB::select("SELECT * FROM non_existing_table");
+    }
+
+    $data = DB::select("SELECT 1 as test");
+
+    return response()->json([
+        "status" => "db success",
+        "data" => $data
+    ]);
 });
