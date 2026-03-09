@@ -52,3 +52,16 @@ Route::get('/db', function (Request $request) {
         "data" => $data
     ]);
 });
+
+Route::post('/validate', function (Request $request) {
+
+    $validated = $request->validate([
+        "email" => "required|email",
+        "age" => "required|integer|between:18,60"
+    ]);
+
+    return response()->json([
+        "message" => "validation success",
+        "data" => $validated
+    ]);
+});
