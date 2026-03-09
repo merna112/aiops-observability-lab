@@ -6,6 +6,8 @@ services:
     build: ./api
     ports:
       - "8000:8000"
+    networks:
+      - monitoring
 
   prometheus:
     image: prom/prometheus
@@ -13,8 +15,20 @@ services:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml
     ports:
       - "9090:9090"
+    networks:
+      - monitoring
 
   grafana:
     image: grafana/grafana
     ports:
       - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+    networks:
+      - monitoring
+
+networks:
+  monitoring:
+
+volumes:
+  grafana_data:
