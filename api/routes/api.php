@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
+use App\Support\PrometheusMetricsStore;
 
 
 Route::get('/normal', function () {
@@ -68,11 +69,17 @@ Route::post('/validate', function (Request $request) {
 
 
 Route::get('/metrics', function () {
-
-    $registry = app(\Prometheus\CollectorRegistry::class);
-    $renderer = new \Prometheus\RenderTextFormat();
-    $result = $renderer->render($registry->getMetricFamilySamples());
+    $result = app(PrometheusMetricsStore::class)->render();
 
     return response($result, 200)
         ->header('Content-Type', 'text/plain; version=0.0.4; charset=utf-8');
+});
+
+Route::post('/anomaly-window', function (Request $request) {
+    $active = (int) $request->query('active', 0);
+    app(PrometheusMetricsStore::class)->setAnomalyWindowActive($active);
+
+    return response()->json([
+        'anomaly_window_active' => $active > 0 ? 1 : 0
+    ]);
 });

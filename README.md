@@ -1,52 +1,60 @@
 # AIOps Observability Lab
 
-Laravel API with ML-ready telemetry, Prometheus metrics, Grafana monitoring, and controlled anomaly traffic generator.
+Laravel API with ML-ready telemetry, Prometheus metrics, Grafana monitoring, and a controlled anomaly traffic generator.
 
 ## Setup
 
-1. Clone the repository
-2. Start the services:
+1. Build and run stack:
    ```bash
    docker-compose up --build
    ```
-3. Access:
+2. Services:
    - API: http://localhost:8000
    - Prometheus: http://localhost:9090
    - Grafana: http://localhost:3000 (admin/admin)
 
 ## API Endpoints
 
-- `GET /api/normal` - Normal response
-- `GET /api/slow` - 2 second delay
-- `GET /api/slow?hard=1` - 5-7 second delay (TIMEOUT_ERROR if >4s)
-- `GET /api/error` - System error
-- `GET /api/random` - Random success/failure
-- `GET /api/db` - Database query
-- `GET /api/db?fail=1` - Database error
-- `POST /api/validate` - JSON validation
-- `GET /api/metrics` - Prometheus metrics
+- `GET /api/normal`
+- `GET /api/slow`
+- `GET /api/slow?hard=1`
+- `GET /api/error`
+- `GET /api/random`
+- `GET /api/db`
+- `GET /api/db?fail=1`
+- `POST /api/validate`
+- `GET /api/metrics`
+- `POST /api/anomaly-window?active=1|0`
 
 ## Traffic Generator
 
-Run the anomaly traffic generator:
+Run:
 ```bash
 python traffic_generator.py
 ```
 
-This generates ~3000 requests over 10 minutes with a 2-minute error spike anomaly.
+Behavior:
+- 10-minute base load (>=3000 dispatched requests)
+- Distribution target: 70/15/5/5/3/2 for normal/slow/slow-hard/error/db/validate
+- Exact 2-minute anomaly window with error spike (~40%)
+- Writes `ground_truth.json`
 
 ## Log Export
 
-Export structured logs:
+Run:
 ```bash
 php export_logs.php
 ```
 
-## Deliverables
+This parses `api/storage/logs/aiops.log` and exports a strict-schema `logs.json`.
 
-- GitHub repo with complete implementation
-- `storage/logs/aiops.log` - Raw logs
-- `logs.json` - Exported structured logs (≥1500 entries, ≥100 errors)
-- `ground_truth.json` - Anomaly metadata
-- Docker setup for monitoring stack
-- Grafana dashboard JSON (to be created)
+## Deliverables Included
+
+- `api/storage/logs/aiops.log`
+- `logs.json`
+- `ground_truth.json`
+- `docker-compose.yml`
+- `prometheus.yml`
+- `grafana_dashboard.json`
+- `traffic_generator.py`
+- `engineering_report.md`

@@ -3,6 +3,11 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
+use Illuminate\Database\QueryException;
+use Illuminate\Http\Request;
+use Illuminate\Validation\ValidationException;
+use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
+use App\Support\ErrorCategorizer;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -19,7 +24,35 @@ return Application::configure(basePath: dirname(__DIR__))
 
     })
     ->withExceptions(function (Exceptions $exceptions): void {
+        $exceptions->render(function (\Throwable $e, Request $request) {
+            if (!$request->is('api/*')) {
+                return null;
+            }
 
-        // Error logging is handled in TelemetryMiddleware
-    
+            $categorizer = app(ErrorCategorizer::class);
+            $errorCategory = $categorizer->fromException($e);
+
+            $statusCode = 500;
+            if ($e instanceof ValidationException) {
+                $statusCode = 422;
+            } elseif ($e instanceof HttpExceptionInterface) {
+                $statusCode = $e->getStatusCode();
+            } elseif ($e instanceof QueryException) {
+                $statusCode = 500;
+            }
+
+            $payload = [
+                'message' => $e->getMessage(),
+                'error_category' => $errorCategory,
+            ];
+
+            if ($e instanceof ValidationException) {
+                $payload['errors'] = $e->errors();
+            }
+
+            return response()
+                ->json($payload, $statusCode)
+                ->header('X-Error-Category', $errorCategory)
+                ->header('X-Error-Message', $e->getMessage());
+        });
     })->create();
