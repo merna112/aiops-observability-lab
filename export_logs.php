@@ -37,11 +37,11 @@ foreach ($lines as $line) {
 }
 
 // Filter to ensure we have at least 1500 entries and 100 errors
-$filteredLogs = array_filter($logs, function($log) {
+$filteredLogs = array_filter($logs, function ($log) {
     return isset($log['request_id']); // Only request logs
 });
 
-$errors = array_filter($filteredLogs, function($log) {
+$errors = array_filter($filteredLogs, function ($log) {
     return ($log['severity'] ?? 'info') === 'error';
 });
 

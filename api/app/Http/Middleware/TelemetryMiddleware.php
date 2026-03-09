@@ -35,7 +35,7 @@ class TelemetryMiddleware
                 $requestsCounter->inc([
                     $request->method(),
                     $request->path(),
-                    (string)$response->status()
+                    (string) $response->status()
                 ]);
 
                 if ($errorCategory) {
