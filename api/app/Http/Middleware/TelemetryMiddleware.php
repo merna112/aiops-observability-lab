@@ -29,7 +29,11 @@ class TelemetryMiddleware
         $statusCode = $response->getStatusCode();
 
         $responseCategory = $response->headers->get('X-Error-Category');
-        $errorCategory = $this->categorizer->fromResponse($latencyMs, $statusCode, $responseCategory);
+        $errorCategory = $this->categorizer->fromResponse(
+            $latencyMs,
+            $statusCode,
+            $responseCategory
+        );
         $severity = $errorCategory ? 'error' : 'info';
 
         if (!$isMetricsEndpoint) {
