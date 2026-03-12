@@ -12,7 +12,7 @@ import requests
 BASE_URL = "http://localhost:8000/api"
 TOTAL_DURATION_MINUTES = 10
 ANOMALY_DURATION_MINUTES = 2
-TARGET_TOTAL_REQUESTS = 3600
+TARGET_TOTAL_REQUESTS = 3500
 ANOMALY_TYPE = "error_spike"
 
 # Base distribution percentages
@@ -151,7 +151,7 @@ def run_traffic() -> None:
 
     print(f"Traffic generation complete. Total requests: {total_requests}")
     print("Top endpoint/status counts:")
-    for key in sorted(counts, key=counts.get, reverse=True)[:15]:
+    for key in sorted(counts, key=lambda k: counts[k], reverse=True)[:15]:
         print(f"{key} -> {counts[key]}")
 
 
