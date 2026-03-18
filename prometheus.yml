@@ -6,4 +6,4 @@ scrape_configs:
   - job_name: 'laravel-api'
     metrics_path: /api/metrics
     static_configs:
-      - targets: ['host.docker.internal:8000']
+      - targets: ['app:8000']
