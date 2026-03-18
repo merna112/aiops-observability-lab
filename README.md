@@ -255,3 +255,128 @@ The repository includes the following artifacts:
 - Engineering report (`engineering_report.md`)
 
 ---
+
+## Lab Work 2: AIOps Detection Engine
+
+Lab Work 2 adds active anomaly detection on top of the observability stack from Lab Work 1.
+
+The detector is implemented as a long-running Artisan command:
+
+```bash
+cd api
+php artisan aiops:detect --interval=20
+```
+
+### What the detector does each cycle
+
+1. Queries Prometheus metrics per endpoint
+2. Updates baseline behavior per endpoint (EMA)
+3. Detects multi-signal anomalies
+4. Correlates signals into one high-level incident
+5. Saves incidents to JSON
+6. Emits deduplicated alerts
+
+### Detection Components
+
+| Requirement | Implementation |
+|---|---|
+| Detection command | `api/app/Console/Commands/AIOpsDetect.php` |
+| Prometheus API client | `api/app/Services/PrometheusClient.php` |
+| Baseline modeling | `api/app/Services/BaselineComputer.php` |
+| Multi-signal anomaly rules | `api/app/Services/AnomalyDetector.php` |
+| Event correlation | `api/app/Services/EventCorrelator.php` |
+| Incident generation | `api/app/Services/IncidentManager.php` |
+| Alerting + deduplication | `api/app/Services/AlertManager.php` |
+
+### Incident and Alert Artifacts
+
+- Incidents: `api/storage/aiops/incidents.json`
+- Alerts: `api/storage/aiops/alerts.json`
+- Alert fingerprints: `api/storage/aiops/alerted_fingerprints.json`
+- Baselines: `api/storage/aiops/baselines.json`
+
+### Engineering Report
+
+Lab Work 2 report is available at:
+
+- `engineering_report.md`
+
+It explains:
+
+- baseline design
+- anomaly detection rules
+- event correlation strategy
+- alert suppression logic
+
+### How to demo Lab 2 in 3 minutes
+
+1. Start the stack
+
+```bash
+docker-compose up -d
+```
+
+Expected output (example):
+
+```text
+... app-1         Up
+... prometheus-1  Up
+... grafana-1     Up
+```
+
+2. Start the detector (Terminal A)
+
+```bash
+cd api
+php artisan aiops:detect --interval=20
+```
+
+Expected output (healthy cycle example):
+
+```text
+Cycle #N ...
+Querying Prometheus metrics...
+Baselines updated for 5 endpoint(s).
+No anomalies detected — system healthy.
+```
+
+3. Trigger short anomaly traffic (Terminal B, repo root)
+
+```bash
+python traffic_generator.py
+```
+
+Expected output (example):
+
+```text
+Starting traffic generation at ...
+Anomaly window: ... to ...
+Requests dispatched: 250
+Traffic generation complete.
+```
+
+4. Show generated incidents and alerts
+
+```bash
+type api\storage\aiops\incidents.json
+type api\storage\aiops\alerts.json
+```
+
+Expected output (detector Terminal A):
+
+```text
+⚑ GROUND-TRUTH anomaly window is ACTIVE
+Detected ... anomalous signal(s)
+Correlation -> ERROR_STORM [CRITICAL]
+Incident saved: INC-...
+Alert suppressed — same pattern alerted recently (deduplication).
+```
+
+Expected JSON fields in `incidents.json`:
+
+```text
+incident_id, incident_type, severity, status, detected_at,
+affected_service, affected_endpoints, triggering_signals,
+baseline_values, observed_values, summary
+```
+
