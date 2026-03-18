@@ -1,47 +1,47 @@
 {
     "api/normal": {
-        "avg_latency": 0.001158695020455951,
+        "avg_latency": 0.0005879858455705939,
         "p95_latency": 0.0475,
-        "request_rate": 0.0035688975782782596,
+        "request_rate": 5.7446815539514764e-5,
         "error_rate": 0,
-        "sample_count": 73,
+        "sample_count": 154,
         "seeded_at": "2026-03-17T11:03:19.907933Z",
-        "updated_at": "2026-03-18T18:42:23.074808Z"
+        "updated_at": "2026-03-18T18:59:45.472469Z"
     },
     "api/slow": {
-        "avg_latency": 3.704262436324169,
-        "p95_latency": 9.09324780799836,
-        "request_rate": 0.0004941775362951664,
-        "error_rate": 0.5114573172211501,
-        "sample_count": 73,
+        "avg_latency": 2.284891755298818,
+        "p95_latency": 3.5370758031239204,
+        "request_rate": 1.4283437105185145e-5,
+        "error_rate": 0.08529666610921127,
+        "sample_count": 154,
         "seeded_at": "2026-03-17T11:03:19.952268Z",
-        "updated_at": "2026-03-18T18:42:23.074947Z"
+        "updated_at": "2026-03-18T18:59:45.472627Z"
     },
     "api/db": {
         "avg_latency": 0.003705118216719607,
         "p95_latency": 0.04844999999999999,
-        "request_rate": 1.5033705358691194e-5,
+        "request_rate": 2.9560331423979706e-9,
         "error_rate": 0.3921584865794529,
-        "sample_count": 73,
+        "sample_count": 154,
         "seeded_at": "2026-03-17T11:03:20.000503Z",
-        "updated_at": "2026-03-18T18:42:23.075027Z"
+        "updated_at": "2026-03-18T18:59:45.472734Z"
     },
     "api/error": {
-        "avg_latency": 0.002561158140995566,
-        "p95_latency": 0.048475031984562114,
-        "request_rate": 0.007727774751974891,
-        "error_rate": 1.0000006040932594,
-        "sample_count": 73,
+        "avg_latency": 0.0011984612548008367,
+        "p95_latency": 0.04750267054186712,
+        "request_rate": 0.6955642545019113,
+        "error_rate": 1.000000001654568,
+        "sample_count": 154,
         "seeded_at": "2026-03-17T11:03:20.029866Z",
-        "updated_at": "2026-03-18T18:42:23.075092Z"
+        "updated_at": "2026-03-18T18:59:45.472810Z"
     },
     "api/validate": {
         "avg_latency": 0.00572752952575862,
         "p95_latency": 0.04919642857142858,
-        "request_rate": 8.548981092686504e-6,
+        "request_rate": 1.6809609368262197e-9,
         "error_rate": 0.4137941314548784,
-        "sample_count": 73,
+        "sample_count": 154,
         "seeded_at": "2026-03-17T11:03:20.056712Z",
-        "updated_at": "2026-03-18T18:42:23.075156Z"
+        "updated_at": "2026-03-18T18:59:45.472884Z"
     }
 }
