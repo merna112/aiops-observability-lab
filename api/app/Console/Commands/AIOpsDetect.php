@@ -49,10 +49,10 @@ class AIOpsDetect extends Command
     public function handle(
         PrometheusClient $prometheus,
         BaselineComputer $baselineComputer,
-        AnomalyDetector  $anomalyDetector,
-        EventCorrelator  $correlator,
-        IncidentManager  $incidentManager,
-        AlertManager     $alertManager
+        AnomalyDetector $anomalyDetector,
+        EventCorrelator $correlator,
+        IncidentManager $incidentManager,
+        AlertManager $alertManager
     ): void {
         $interval = (int) $this->option('interval');
         $interval = max(20, min(30, $interval));
@@ -80,13 +80,13 @@ class AIOpsDetect extends Command
     // -------------------------------------------------------------------------
 
     private function runDetectionCycle(
-        int              $cycle,
+        int $cycle,
         PrometheusClient $prometheus,
         BaselineComputer $baselineComputer,
-        AnomalyDetector  $anomalyDetector,
-        EventCorrelator  $correlator,
-        IncidentManager  $incidentManager,
-        AlertManager     $alertManager
+        AnomalyDetector $anomalyDetector,
+        EventCorrelator $correlator,
+        IncidentManager $incidentManager,
+        AlertManager $alertManager
     ): void {
         $ts = now()->toDateTimeString();
         $this->line('');
@@ -96,7 +96,7 @@ class AIOpsDetect extends Command
         $this->line('│  Querying Prometheus metrics…');
         $currentMetrics = [];
         foreach ($this->endpoints as $path) {
-            $metrics             = $prometheus->getAllEndpointMetrics($path);
+            $metrics = $prometheus->getAllEndpointMetrics($path);
             $currentMetrics[$path] = $metrics;
             $this->printEndpointRow($path, $metrics);
         }
@@ -153,8 +153,16 @@ class AIOpsDetect extends Command
             $baselines,
             $currentMetrics
         );
-        $incidentManager->saveIncident($incident);
-        $this->line("│  Incident saved: <options=bold>{$incident['incident_id']}</>");
+        $persistResult = $incidentManager->saveIncident($incident);
+        $incident = $persistResult['incident'];
+        $action = $persistResult['action'];
+        $occurrenceCount = (int) ($incident['occurrence_count'] ?? 1);
+
+        if ($action === 'updated') {
+            $this->line("│  Incident updated: <options=bold>{$incident['incident_id']}</> (occurrences={$occurrenceCount})");
+        } else {
+            $this->line("│  Incident created: <options=bold>{$incident['incident_id']}</>");
+        }
 
         // ── 6. Alert (with deduplication) ─────────────────────────────────────
         $fingerprint = $alertManager->fingerprint($incident);
@@ -192,10 +200,10 @@ class AIOpsDetect extends Command
 
     private function printEndpointRow(string $path, array $metrics): void
     {
-        $latency   = $metrics['avg_latency']  !== null ? round($metrics['avg_latency']  * 1000, 1) . ' ms' : 'N/A';
-        $p95       = $metrics['p95_latency']  !== null ? round($metrics['p95_latency']  * 1000, 1) . ' ms' : 'N/A';
-        $errorRate = $metrics['error_rate']   !== null ? round($metrics['error_rate']   * 100, 1) . '%'    : 'N/A';
-        $reqRate   = $metrics['request_rate'] !== null ? round($metrics['request_rate'], 4) . ' req/s'     : 'N/A';
+        $latency = $metrics['avg_latency'] !== null ? round($metrics['avg_latency'] * 1000, 1) . ' ms' : 'N/A';
+        $p95 = $metrics['p95_latency'] !== null ? round($metrics['p95_latency'] * 1000, 1) . ' ms' : 'N/A';
+        $errorRate = $metrics['error_rate'] !== null ? round($metrics['error_rate'] * 100, 1) . '%' : 'N/A';
+        $reqRate = $metrics['request_rate'] !== null ? round($metrics['request_rate'], 4) . ' req/s' : 'N/A';
 
         $this->line("│    {$path}: avg={$latency}  p95={$p95}  err={$errorRate}  rate={$reqRate}");
     }
