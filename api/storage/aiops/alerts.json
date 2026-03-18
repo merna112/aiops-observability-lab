@@ -1,0 +1,30 @@
+[
+    {
+        "incident_id": "INC-32D946FE-20260318182333",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "timestamp": "2026-03-18T18:23:33.513460Z",
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-95AFF62A-20260318182434",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "timestamp": "2026-03-18T18:24:34.262173Z",
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 4 anomalous signal(s) on: api/normal, api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-DF28C131-20260318182836",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "timestamp": "2026-03-18T18:28:36.884972Z",
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-EF374010-20260318182857",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "timestamp": "2026-03-18T18:28:57.079616Z",
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    }
+]

@@ -1,0 +1,47 @@
+{
+    "api/normal": {
+        "avg_latency": 0.001158695020455951,
+        "p95_latency": 0.0475,
+        "request_rate": 0.0039654417536425105,
+        "error_rate": 0,
+        "sample_count": 72,
+        "seeded_at": "2026-03-17T11:03:19.907933Z",
+        "updated_at": "2026-03-18T18:42:02.925398Z"
+    },
+    "api/slow": {
+        "avg_latency": 3.704262436324169,
+        "p95_latency": 9.09324780799836,
+        "request_rate": 0.0005490861514390738,
+        "error_rate": 0.5114573172211501,
+        "sample_count": 72,
+        "seeded_at": "2026-03-17T11:03:19.952268Z",
+        "updated_at": "2026-03-18T18:42:02.925542Z"
+    },
+    "api/db": {
+        "avg_latency": 0.003705118216719607,
+        "p95_latency": 0.04844999999999999,
+        "request_rate": 1.6704117065212438e-5,
+        "error_rate": 0.3921584865794529,
+        "sample_count": 72,
+        "seeded_at": "2026-03-17T11:03:20.000503Z",
+        "updated_at": "2026-03-18T18:42:02.925605Z"
+    },
+    "api/error": {
+        "avg_latency": 0.002561158140995566,
+        "p95_latency": 0.048475031984562114,
+        "request_rate": 0.008586416391083212,
+        "error_rate": 1.0000006040932594,
+        "sample_count": 72,
+        "seeded_at": "2026-03-17T11:03:20.029866Z",
+        "updated_at": "2026-03-18T18:42:02.925663Z"
+    },
+    "api/validate": {
+        "avg_latency": 0.00572752952575862,
+        "p95_latency": 0.04919642857142858,
+        "request_rate": 9.498867880762783e-6,
+        "error_rate": 0.4137941314548784,
+        "sample_count": 72,
+        "seeded_at": "2026-03-17T11:03:20.056712Z",
+        "updated_at": "2026-03-18T18:42:02.925738Z"
+    }
+}

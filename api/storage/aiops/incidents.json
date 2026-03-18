@@ -1,0 +1,1228 @@
+[
+    {
+        "incident_id": "INC-32D946FE-20260318182333",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:23:33.513460Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.125,
+                "baseline": 0.218,
+                "ratio": 0.57,
+                "threshold": 0.1,
+                "description": "error rate 12.5% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 2.8463,
+                "p95_latency_s": 8.371,
+                "request_rate": 0.0363,
+                "error_rate": 0.218
+            },
+            "api/error": {
+                "avg_latency_s": 0.0028,
+                "p95_latency_s": 0.0513,
+                "request_rate": 0.024,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 2.3761,
+                "p95_latency_s": 4,
+                "request_rate": 0.0281,
+                "error_rate": 0.125
+            },
+            "api/error": {
+                "avg_latency_s": 0.01,
+                "p95_latency_s": 0.085,
+                "request_rate": 0.0211,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-0B6CF325-20260318182353",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:23:53.711843Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.3636,
+                "baseline": 0.2325,
+                "ratio": 1.56,
+                "threshold": 0.1,
+                "description": "error rate 36.4% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 2.889,
+                "p95_latency_s": 8.4422,
+                "request_rate": 0.0365,
+                "error_rate": 0.2325
+            },
+            "api/error": {
+                "avg_latency_s": 0.003,
+                "p95_latency_s": 0.0524,
+                "request_rate": 0.0268,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.2741,
+                "p95_latency_s": 9.0833,
+                "request_rate": 0.0386,
+                "error_rate": 0.3636
+            },
+            "api/error": {
+                "avg_latency_s": 0.0049,
+                "p95_latency_s": 0.0625,
+                "request_rate": 0.0526,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-894878F4-20260318182414",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:24:14.051516Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.2554,
+                "ratio": 1.81,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.073693,
+                "baseline": 0.031509,
+                "ratio": 2.34,
+                "threshold": 2,
+                "description": "request rate 0.0737 req/s exceeds 2.0x baseline (0.0315 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 2.9541,
+                "p95_latency_s": 8.5167,
+                "request_rate": 0.0374,
+                "error_rate": 0.2554
+            },
+            "api/error": {
+                "avg_latency_s": 0.0031,
+                "p95_latency_s": 0.0521,
+                "request_rate": 0.0315,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.004,
+                "p95_latency_s": 0.0499,
+                "request_rate": 0.0737,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-95AFF62A-20260318182434",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:24:34.262173Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/normal",
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/normal",
+                "observed": 0.322843,
+                "baseline": 0.157956,
+                "ratio": 2.04,
+                "threshold": 2,
+                "description": "request rate 0.3228 req/s exceeds 2.0x baseline (0.1580 req/s)"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.276,
+                "ratio": 1.67,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.073692,
+                "baseline": 0.035728,
+                "ratio": 2.06,
+                "threshold": 2,
+                "description": "request rate 0.0737 req/s exceeds 2.0x baseline (0.0357 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/normal": {
+                "avg_latency_s": 0.0018,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.158,
+                "error_rate": 0
+            },
+            "api/slow": {
+                "avg_latency_s": 3.0126,
+                "p95_latency_s": 8.5838,
+                "request_rate": 0.0382,
+                "error_rate": 0.276
+            },
+            "api/error": {
+                "avg_latency_s": 0.0032,
+                "p95_latency_s": 0.0519,
+                "request_rate": 0.0357,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/normal": {
+                "avg_latency_s": 0.001,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.3228,
+                "error_rate": 0
+            },
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.004,
+                "p95_latency_s": 0.0499,
+                "request_rate": 0.0737,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 4 anomalous signal(s) on: api/normal, api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-A553D5D3-20260318182454",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:24:54.425904Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.2946,
+                "ratio": 1.57,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.0653,
+                "p95_latency_s": 8.6442,
+                "request_rate": 0.039,
+                "error_rate": 0.2946
+            },
+            "api/error": {
+                "avg_latency_s": 0.0033,
+                "p95_latency_s": 0.0517,
+                "request_rate": 0.0395,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.004,
+                "p95_latency_s": 0.0499,
+                "request_rate": 0.0737,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-FB6CFC8A-20260318182514",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:25:14.586406Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.3113,
+                "ratio": 1.48,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.238629,
+                "baseline": 0.059435,
+                "ratio": 4.01,
+                "threshold": 2,
+                "description": "request rate 0.2386 req/s exceeds 2.0x baseline (0.0594 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.1127,
+                "p95_latency_s": 8.6985,
+                "request_rate": 0.0396,
+                "error_rate": 0.3113
+            },
+            "api/error": {
+                "avg_latency_s": 0.0032,
+                "p95_latency_s": 0.0513,
+                "request_rate": 0.0594,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.0027,
+                "p95_latency_s": 0.0482,
+                "request_rate": 0.2386,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-9C72DB39-20260318182534",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:25:34.960835Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.3263,
+                "ratio": 1.41,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.536902,
+                "baseline": 0.107181,
+                "ratio": 5.01,
+                "threshold": 2,
+                "description": "request rate 0.5369 req/s exceeds 2.0x baseline (0.1072 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.1554,
+                "p95_latency_s": 8.7474,
+                "request_rate": 0.0402,
+                "error_rate": 0.3263
+            },
+            "api/error": {
+                "avg_latency_s": 0.0031,
+                "p95_latency_s": 0.051,
+                "request_rate": 0.1072,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.0025,
+                "p95_latency_s": 0.0478,
+                "request_rate": 0.5369,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-A8B6B05D-20260318182555",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:25:55.247853Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.3398,
+                "ratio": 1.36,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.536897,
+                "baseline": 0.150153,
+                "ratio": 3.58,
+                "threshold": 2,
+                "description": "request rate 0.5369 req/s exceeds 2.0x baseline (0.1502 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.1938,
+                "p95_latency_s": 8.7914,
+                "request_rate": 0.0408,
+                "error_rate": 0.3398
+            },
+            "api/error": {
+                "avg_latency_s": 0.0031,
+                "p95_latency_s": 0.0507,
+                "request_rate": 0.1502,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.0025,
+                "p95_latency_s": 0.0478,
+                "request_rate": 0.5369,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-89D3743E-20260318182615",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:26:15.467193Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.352,
+                "ratio": 1.31,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.536901,
+                "baseline": 0.188828,
+                "ratio": 2.84,
+                "threshold": 2,
+                "description": "request rate 0.5369 req/s exceeds 2.0x baseline (0.1888 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.2284,
+                "p95_latency_s": 8.831,
+                "request_rate": 0.0413,
+                "error_rate": 0.352
+            },
+            "api/error": {
+                "avg_latency_s": 0.003,
+                "p95_latency_s": 0.0504,
+                "request_rate": 0.1888,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.0025,
+                "p95_latency_s": 0.0478,
+                "request_rate": 0.5369,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-A97A513F-20260318182635",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:26:35.616503Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.363,
+                "ratio": 1.27,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.536897,
+                "baseline": 0.223635,
+                "ratio": 2.4,
+                "threshold": 2,
+                "description": "request rate 0.5369 req/s exceeds 2.0x baseline (0.2236 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.2595,
+                "p95_latency_s": 8.8667,
+                "request_rate": 0.0417,
+                "error_rate": 0.363
+            },
+            "api/error": {
+                "avg_latency_s": 0.003,
+                "p95_latency_s": 0.0501,
+                "request_rate": 0.2236,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.0025,
+                "p95_latency_s": 0.0478,
+                "request_rate": 0.5369,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-73D39BD2-20260318182655",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:26:55.916467Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.3728,
+                "ratio": 1.24,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.536891,
+                "baseline": 0.25496,
+                "ratio": 2.11,
+                "threshold": 2,
+                "description": "request rate 0.5369 req/s exceeds 2.0x baseline (0.2550 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.2875,
+                "p95_latency_s": 8.8988,
+                "request_rate": 0.0421,
+                "error_rate": 0.3728
+            },
+            "api/error": {
+                "avg_latency_s": 0.0029,
+                "p95_latency_s": 0.0499,
+                "request_rate": 0.255,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.0025,
+                "p95_latency_s": 0.0478,
+                "request_rate": 0.5369,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-14F79C13-20260318182716",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:27:16.106474Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.3817,
+                "ratio": 1.21,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.3127,
+                "p95_latency_s": 8.9276,
+                "request_rate": 0.0424,
+                "error_rate": 0.3817
+            },
+            "api/error": {
+                "avg_latency_s": 0.0029,
+                "p95_latency_s": 0.0497,
+                "request_rate": 0.2832,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.0025,
+                "p95_latency_s": 0.0478,
+                "request_rate": 0.5369,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-DEECA6DF-20260318182736",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:27:36.250522Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.3897,
+                "ratio": 1.18,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.3354,
+                "p95_latency_s": 8.9536,
+                "request_rate": 0.0428,
+                "error_rate": 0.3897
+            },
+            "api/error": {
+                "avg_latency_s": 0.0028,
+                "p95_latency_s": 0.0495,
+                "request_rate": 0.3085,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.0025,
+                "p95_latency_s": 0.0478,
+                "request_rate": 0.5369,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-BE4F7386-20260318182756",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:27:56.561434Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 0.4615,
+                "baseline": 0.3969,
+                "ratio": 1.16,
+                "threshold": 0.1,
+                "description": "error rate 46.2% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.3558,
+                "p95_latency_s": 8.977,
+                "request_rate": 0.043,
+                "error_rate": 0.3969
+            },
+            "api/error": {
+                "avg_latency_s": 0.0028,
+                "p95_latency_s": 0.0493,
+                "request_rate": 0.3314,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5395,
+                "p95_latency_s": 9.1875,
+                "request_rate": 0.0456,
+                "error_rate": 0.4615
+            },
+            "api/error": {
+                "avg_latency_s": 0.0025,
+                "p95_latency_s": 0.0478,
+                "request_rate": 0.5369,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-04A7BD69-20260318182816",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:28:16.724556Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 1,
+                "baseline": 0.4572,
+                "ratio": 2.19,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.5603,
+                "p95_latency_s": 9.0481,
+                "request_rate": 0.0405,
+                "error_rate": 0.4572
+            },
+            "api/error": {
+                "avg_latency_s": 0.0027,
+                "p95_latency_s": 0.0492,
+                "request_rate": 0.3498,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 5.401,
+                "p95_latency_s": 9.6875,
+                "request_rate": 0.0175,
+                "error_rate": 1
+            },
+            "api/error": {
+                "avg_latency_s": 0.0022,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.5158,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-DF28C131-20260318182836",
+        "incident_type": "ERROR_STORM",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:28:36.884972Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/slow",
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/slow",
+                "observed": 1,
+                "baseline": 0.5115,
+                "ratio": 1.96,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/slow": {
+                "avg_latency_s": 3.7043,
+                "p95_latency_s": 9.0932,
+                "request_rate": 0.0371,
+                "error_rate": 0.5115
+            },
+            "api/error": {
+                "avg_latency_s": 0.0027,
+                "p95_latency_s": 0.049,
+                "request_rate": 0.3633,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/slow": {
+                "avg_latency_s": 4.9996,
+                "p95_latency_s": 9.5,
+                "request_rate": 0.007,
+                "error_rate": 1
+            },
+            "api/error": {
+                "avg_latency_s": 0.0022,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.4843,
+                "error_rate": 1
+            }
+        },
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+    },
+    {
+        "incident_id": "INC-EF374010-20260318182857",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:28:57.079616Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0027,
+                "p95_latency_s": 0.0488,
+                "request_rate": 0.3733,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0023,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.4632,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-0AB97BDA-20260318182917",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:29:17.384116Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0026,
+                "p95_latency_s": 0.0487,
+                "request_rate": 0.3822,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0023,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.4632,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-B41A940C-20260318182937",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:29:37.508354Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0026,
+                "p95_latency_s": 0.0486,
+                "request_rate": 0.3903,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0023,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.4632,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-EEEB1337-20260318182957",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:29:57.635484Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0026,
+                "p95_latency_s": 0.0485,
+                "request_rate": 0.3811,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0024,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.2983,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    }
+]
