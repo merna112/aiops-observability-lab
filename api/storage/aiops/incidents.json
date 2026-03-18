@@ -1094,21 +1094,21 @@
             "api/error": {
                 "avg_latency_s": 0.0012,
                 "p95_latency_s": 0.0475,
-                "request_rate": 0.6956,
+                "request_rate": 0.6093,
                 "error_rate": 1
             }
         },
         "observed_values": {
             "api/error": {
-                "avg_latency_s": 0.0012,
+                "avg_latency_s": 0.0011,
                 "p95_latency_s": 0.0475,
-                "request_rate": 0.3544,
+                "request_rate": 0.1404,
                 "error_rate": 1
             }
         },
         "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
-        "last_detected_at": "2026-03-18T18:59:45.475394Z",
-        "occurrence_count": 27
+        "last_detected_at": "2026-03-18T19:00:05.603180Z",
+        "occurrence_count": 28
     },
     {
         "incident_id": "INC-0AB97BDA-20260318182917",
@@ -2670,6 +2670,45 @@
                 "avg_latency_s": 0.0012,
                 "p95_latency_s": 0.0475,
                 "request_rate": 0.565,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-1B288E54-20260318185957",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T18:59:57.874220Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6614,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.3544,
                 "error_rate": 1
             }
         },
