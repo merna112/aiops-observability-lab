@@ -1,0 +1,18 @@
+{
+  "dataset_window_seconds": 30,
+  "window_seconds": 60,
+  "model": "IsolationForest",
+  "score_quantile": 0.9995,
+  "training_windows": 18174,
+  "total_windows": 18182,
+  "metrics": {
+    "tp": 2,
+    "fp": 13,
+    "fn": 0,
+    "precision": 0.13333333333333333,
+    "recall": 1.0,
+    "f1": 0.23529411764705882,
+    "ground_truth_windows": 2,
+    "predicted_anomaly_windows": 15
+  }
+}
