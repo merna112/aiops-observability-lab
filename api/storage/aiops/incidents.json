@@ -1094,7 +1094,7 @@
             "api/error": {
                 "avg_latency_s": 0.0012,
                 "p95_latency_s": 0.0475,
-                "request_rate": 0.6093,
+                "request_rate": 0.4952,
                 "error_rate": 1
             }
         },
@@ -1102,13 +1102,13 @@
             "api/error": {
                 "avg_latency_s": 0.0011,
                 "p95_latency_s": 0.0475,
-                "request_rate": 0.1404,
+                "request_rate": 0.2,
                 "error_rate": 1
             }
         },
         "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
-        "last_detected_at": "2026-03-18T19:00:05.603180Z",
-        "occurrence_count": 28
+        "last_detected_at": "2026-03-18T19:34:52.041200Z",
+        "occurrence_count": 45
     },
     {
         "incident_id": "INC-0AB97BDA-20260318182917",
@@ -2709,6 +2709,666 @@
                 "avg_latency_s": 0.0012,
                 "p95_latency_s": 0.0475,
                 "request_rate": 0.3544,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-D02D221F-20260318192949",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:29:49.566627Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.231598,
+                "baseline": 0.02474,
+                "ratio": 9.36,
+                "threshold": 2,
+                "description": "request rate 0.2316 req/s exceeds 2.0x baseline (0.0247 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0013,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.0247,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.2316,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-AB756F61-20260318193009",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:30:09.655858Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.442139,
+                "baseline": 0.085097,
+                "ratio": 5.2,
+                "threshold": 2,
+                "description": "request rate 0.4421 req/s exceeds 2.0x baseline (0.0851 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.0851,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.4421,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-CBFA83CF-20260318193029",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:30:29.754093Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.642155,
+                "baseline": 0.172937,
+                "ratio": 3.71,
+                "threshold": 2,
+                "description": "request rate 0.6422 req/s exceeds 2.0x baseline (0.1729 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.1729,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-66960230-20260318193049",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:30:49.892250Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            },
+            {
+                "type": "TRAFFIC_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 0.642159,
+                "baseline": 0.262089,
+                "ratio": 2.45,
+                "threshold": 2,
+                "description": "request rate 0.6422 req/s exceeds 2.0x baseline (0.2621 req/s)"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.2621,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-D86E9296-20260318193110",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:31:10.004801Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.3343,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-6781365A-20260318193130",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:31:30.111868Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.3928,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-E71E98F5-20260318193150",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:31:50.229070Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.4402,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-89B63975-20260318193210",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:32:10.349075Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.4785,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-FC8CEB4E-20260318193230",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:32:30.449620Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.5096,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-A64234ED-20260318193250",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:32:50.557829Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.5348,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-552B31F3-20260318193310",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:33:10.650514Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.5552,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-F995E16A-20260318193330",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:33:30.758813Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.5717,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-28CB32E9-20260318193350",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:33:50.854881Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.5851,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-9F974284-20260318193410",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:34:10.993477Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.5959,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.6422,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-B5997885-20260318193431",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:34:31.076266Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.5816,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.4106,
+                "error_rate": 1
+            }
+        },
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-D84D5DA4-20260318193451",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "status": "OPEN",
+        "detected_at": "2026-03-18T19:34:51.171832Z",
+        "affected_service": "laravel-api",
+        "affected_endpoints": [
+            "api/error"
+        ],
+        "triggering_signals": [
+            {
+                "type": "ERROR_RATE_ANOMALY",
+                "endpoint": "api/error",
+                "observed": 1,
+                "baseline": 1,
+                "ratio": 1,
+                "threshold": 0.1,
+                "description": "error rate 100.0% exceeds threshold 10%"
+            }
+        ],
+        "baseline_values": {
+            "api/error": {
+                "avg_latency_s": 0.0012,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.528,
+                "error_rate": 1
+            }
+        },
+        "observed_values": {
+            "api/error": {
+                "avg_latency_s": 0.0011,
+                "p95_latency_s": 0.0475,
+                "request_rate": 0.2,
                 "error_rate": 1
             }
         },

@@ -1,6 +1,6 @@
 {
-  "anomaly_start_iso": "2026-03-18T20:50:03.207220+02:00",
-  "anomaly_end_iso": "2026-03-18T20:52:03.207220+02:00",
+  "anomaly_start_iso": "2026-03-22T13:52:15.427688+02:00",
+  "anomaly_end_iso": "2026-03-22T13:54:15.427688+02:00",
   "anomaly_type": "error_spike",
   "expected_behavior": "Error rate spikes to about 40% during the anomaly window, causing a clear error-rate increase in Grafana and logs."
 }

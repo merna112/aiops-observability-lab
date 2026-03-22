@@ -82,5 +82,33 @@
         "severity": "HIGH",
         "timestamp": "2026-03-18T18:28:57.079616Z",
         "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-EF374010-20260318182857",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "timestamp": "2026-03-18T18:28:57.079616Z",
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-D02D221F-20260318192949",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "timestamp": "2026-03-18T19:29:49.566627Z",
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-EF374010-20260318182857",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "timestamp": "2026-03-18T18:28:57.079616Z",
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+    },
+    {
+        "incident_id": "INC-D84D5DA4-20260318193451",
+        "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
+        "severity": "HIGH",
+        "timestamp": "2026-03-18T19:34:51.171832Z",
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
     }
 ]
