@@ -1,0 +1,1339 @@
+[
+    {
+        "incident_id": "INC-32D946FE-20260318182333",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.668103Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-0B6CF325-20260318182353",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.669542Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-894878F4-20260318182414",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.670184Z",
+        "result": "FAILED",
+        "notes": "Sending an immediate operator alert for broad error activity. Simulated execution failed and requires escalation."
+    },
+    {
+        "incident_id": "INC-894878F4-20260318182414",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T12:57:42.670885Z",
+        "result": "ESCALATED",
+        "notes": "Automated action failed: SEND_ALERT"
+    },
+    {
+        "incident_id": "INC-95AFF62A-20260318182434",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.672036Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-A553D5D3-20260318182454",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.672819Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-FB6CFC8A-20260318182514",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.673609Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-9C72DB39-20260318182534",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.674358Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-A8B6B05D-20260318182555",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.675061Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-89D3743E-20260318182615",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.675844Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-A97A513F-20260318182635",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.676512Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-73D39BD2-20260318182655",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.677267Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-14F79C13-20260318182716",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.677833Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-DEECA6DF-20260318182736",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.678350Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-BE4F7386-20260318182756",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.678848Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-04A7BD69-20260318182816",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.679345Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-DF28C131-20260318182836",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.679842Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-EF374010-20260318182857",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T12:57:42.680339Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists (high occurrence_count=45)."
+    },
+    {
+        "incident_id": "INC-0AB97BDA-20260318182917",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.681042Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-B41A940C-20260318182937",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.681937Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-EEEB1337-20260318182957",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.682781Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-3FF8D5F4-20260318184631",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.683557Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-E0B56F47-20260318184652",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.684367Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-0096DCD9-20260318184712",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.685172Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-F57D49CA-20260318184732",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.686150Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-477BA521-20260318184752",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.687037Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-2C0D191E-20260318184812",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T12:57:42.688150Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-148C8297-20260318184833",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.688972Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-3A20C11F-20260318184853",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.689569Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-995D8491-20260318184913",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.690113Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-434CDEAD-20260318184933",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.690633Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-63A7B2C9-20260318184953",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.691153Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-1339FB1F-20260318185013",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.691671Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-0644B462-20260318185033",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.692190Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-823143E1-20260318185054",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.692691Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-ADE634AE-20260318185435",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.693199Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-0AF7EA01-20260318185455",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.693774Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-AA3C5AF9-20260318185515",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.694519Z",
+        "result": "FAILED",
+        "notes": "Restarting localized service components for the impacted endpoint. Simulated execution failed and requires escalation."
+    },
+    {
+        "incident_id": "INC-AA3C5AF9-20260318185515",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T12:57:42.695207Z",
+        "result": "ESCALATED",
+        "notes": "Automated action failed: RESTART_SERVICE"
+    },
+    {
+        "incident_id": "INC-304C3B6F-20260318185536",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.696225Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-9A54209B-20260318185556",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.697106Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-346A21B1-20260318185616",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.698011Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-C53C3611-20260318185636",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.698941Z",
+        "result": "FAILED",
+        "notes": "Restarting localized service components for the impacted endpoint. Simulated execution failed and requires escalation."
+    },
+    {
+        "incident_id": "INC-C53C3611-20260318185636",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T12:57:42.699582Z",
+        "result": "ESCALATED",
+        "notes": "Automated action failed: RESTART_SERVICE"
+    },
+    {
+        "incident_id": "INC-6A6B827D-20260318185656",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.700910Z",
+        "result": "FAILED",
+        "notes": "Restarting localized service components for the impacted endpoint. Simulated execution failed and requires escalation."
+    },
+    {
+        "incident_id": "INC-6A6B827D-20260318185656",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T12:57:42.701734Z",
+        "result": "ESCALATED",
+        "notes": "Automated action failed: RESTART_SERVICE"
+    },
+    {
+        "incident_id": "INC-E9361F8C-20260318185716",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.702722Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-F7F514A5-20260318185736",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.703607Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-51E7E149-20260318185756",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.704530Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-08168DAC-20260318185817",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.705263Z",
+        "result": "FAILED",
+        "notes": "Restarting localized service components for the impacted endpoint. Simulated execution failed and requires escalation."
+    },
+    {
+        "incident_id": "INC-08168DAC-20260318185817",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T12:57:42.705819Z",
+        "result": "ESCALATED",
+        "notes": "Automated action failed: RESTART_SERVICE"
+    },
+    {
+        "incident_id": "INC-03A0969E-20260318185837",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.706432Z",
+        "result": "FAILED",
+        "notes": "Restarting localized service components for the impacted endpoint. Simulated execution failed and requires escalation."
+    },
+    {
+        "incident_id": "INC-03A0969E-20260318185837",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T12:57:42.706964Z",
+        "result": "ESCALATED",
+        "notes": "Automated action failed: RESTART_SERVICE"
+    },
+    {
+        "incident_id": "INC-D1C7E2FA-20260318185857",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.707653Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-41D031AD-20260318185917",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.709004Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-5F7A7D03-20260318185937",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.709782Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-1B288E54-20260318185957",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.710418Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-D02D221F-20260318192949",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.711100Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-AB756F61-20260318193009",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.711740Z",
+        "result": "FAILED",
+        "notes": "Restarting localized service components for the impacted endpoint. Simulated execution failed and requires escalation."
+    },
+    {
+        "incident_id": "INC-AB756F61-20260318193009",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T12:57:42.712224Z",
+        "result": "ESCALATED",
+        "notes": "Automated action failed: RESTART_SERVICE"
+    },
+    {
+        "incident_id": "INC-CBFA83CF-20260318193029",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.712817Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-66960230-20260318193049",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.713385Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-D86E9296-20260318193110",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.714035Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-6781365A-20260318193130",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.714824Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-E71E98F5-20260318193150",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.715477Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-89B63975-20260318193210",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.716092Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-FC8CEB4E-20260318193230",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.716708Z",
+        "result": "FAILED",
+        "notes": "Restarting localized service components for the impacted endpoint. Simulated execution failed and requires escalation."
+    },
+    {
+        "incident_id": "INC-FC8CEB4E-20260318193230",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T12:57:42.717223Z",
+        "result": "ESCALATED",
+        "notes": "Automated action failed: RESTART_SERVICE"
+    },
+    {
+        "incident_id": "INC-A64234ED-20260318193250",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.717821Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-552B31F3-20260318193310",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.718372Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-F995E16A-20260318193330",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.718948Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-28CB32E9-20260318193350",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.719855Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-9F974284-20260318193410",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.720806Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-B5997885-20260318193431",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.721937Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-D84D5DA4-20260318193451",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T12:57:42.722804Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-32D946FE-20260318182333",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.684636Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-0B6CF325-20260318182353",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.687614Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-95AFF62A-20260318182434",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.688882Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-A553D5D3-20260318182454",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.690114Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-FB6CFC8A-20260318182514",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.691319Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-9C72DB39-20260318182534",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.692368Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-A8B6B05D-20260318182555",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.693495Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-89D3743E-20260318182615",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.694914Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-A97A513F-20260318182635",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.695913Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-73D39BD2-20260318182655",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.696933Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-14F79C13-20260318182716",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.697840Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-DEECA6DF-20260318182736",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.698763Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-BE4F7386-20260318182756",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.700103Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-04A7BD69-20260318182816",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.701349Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-DF28C131-20260318182836",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.702449Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-0AB97BDA-20260318182917",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.703772Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-B41A940C-20260318182937",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.705034Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-EEEB1337-20260318182957",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.706249Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-3FF8D5F4-20260318184631",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.707456Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-E0B56F47-20260318184652",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.708738Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-0096DCD9-20260318184712",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.709811Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-F57D49CA-20260318184732",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.710731Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-477BA521-20260318184752",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.711757Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-2C0D191E-20260318184812",
+        "action_taken": "SEND_ALERT",
+        "timestamp": "2026-03-29T13:01:41.713842Z",
+        "result": "SUCCESS",
+        "notes": "Sending an immediate operator alert for broad error activity."
+    },
+    {
+        "incident_id": "INC-148C8297-20260318184833",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.715325Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-3A20C11F-20260318184853",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.716604Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-995D8491-20260318184913",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.717796Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-434CDEAD-20260318184933",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.719067Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-63A7B2C9-20260318184953",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.720262Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-1339FB1F-20260318185013",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.722569Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-0644B462-20260318185033",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.744808Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-823143E1-20260318185054",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.746379Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-ADE634AE-20260318185435",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.747581Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-0AF7EA01-20260318185455",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.762556Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-304C3B6F-20260318185536",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.763898Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-9A54209B-20260318185556",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.765308Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-346A21B1-20260318185616",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.766548Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-E9361F8C-20260318185716",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.769139Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-F7F514A5-20260318185736",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.770542Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-51E7E149-20260318185756",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.771939Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-D1C7E2FA-20260318185857",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.773293Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-41D031AD-20260318185917",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.774544Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-5F7A7D03-20260318185937",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.775814Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-1B288E54-20260318185957",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.777100Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-D02D221F-20260318192949",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.778275Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-CBFA83CF-20260318193029",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.779476Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-66960230-20260318193049",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.780921Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-D86E9296-20260318193110",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.784578Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-6781365A-20260318193130",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.786391Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-E71E98F5-20260318193150",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.787778Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-89B63975-20260318193210",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.789302Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-A64234ED-20260318193250",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.790836Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-552B31F3-20260318193310",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.804789Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-F995E16A-20260318193330",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.806631Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-28CB32E9-20260318193350",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.807983Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-9F974284-20260318193410",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.809218Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-B5997885-20260318193431",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.810560Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-D84D5DA4-20260318193451",
+        "action_taken": "RESTART_SERVICE",
+        "timestamp": "2026-03-29T13:01:41.811790Z",
+        "result": "SUCCESS",
+        "notes": "Restarting localized service components for the impacted endpoint."
+    },
+    {
+        "incident_id": "INC-32D946FE-20260318182333",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.724536Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-0B6CF325-20260318182353",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.726358Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-95AFF62A-20260318182434",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.727520Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-A553D5D3-20260318182454",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.728423Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-FB6CFC8A-20260318182514",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.729356Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-9C72DB39-20260318182534",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.730146Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-A8B6B05D-20260318182555",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.730924Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-89D3743E-20260318182615",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.731691Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-A97A513F-20260318182635",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.732569Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-73D39BD2-20260318182655",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.733843Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-14F79C13-20260318182716",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.734902Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-DEECA6DF-20260318182736",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.736238Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-BE4F7386-20260318182756",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.737905Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-04A7BD69-20260318182816",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.739491Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-DF28C131-20260318182836",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.740673Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-0AB97BDA-20260318182917",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.741687Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-B41A940C-20260318182937",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.742692Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-EEEB1337-20260318182957",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.743602Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-3FF8D5F4-20260318184631",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.744543Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-E0B56F47-20260318184652",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.745425Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-0096DCD9-20260318184712",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.746304Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-F57D49CA-20260318184732",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.747318Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-477BA521-20260318184752",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.748218Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-2C0D191E-20260318184812",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.749388Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-148C8297-20260318184833",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.750881Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-3A20C11F-20260318184853",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.752210Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-995D8491-20260318184913",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.754009Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-434CDEAD-20260318184933",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.755854Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-63A7B2C9-20260318184953",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.757079Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-1339FB1F-20260318185013",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.758103Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-0644B462-20260318185033",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.759109Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-823143E1-20260318185054",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.760033Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-ADE634AE-20260318185435",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.760964Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-0AF7EA01-20260318185455",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.762225Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-304C3B6F-20260318185536",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.763236Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-9A54209B-20260318185556",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.764131Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-346A21B1-20260318185616",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.765077Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-E9361F8C-20260318185716",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.766451Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-F7F514A5-20260318185736",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.769740Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-51E7E149-20260318185756",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.771763Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-D1C7E2FA-20260318185857",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.772986Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-41D031AD-20260318185917",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.773964Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-5F7A7D03-20260318185937",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.774918Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-1B288E54-20260318185957",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.775842Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-D02D221F-20260318192949",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.776920Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-CBFA83CF-20260318193029",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.778136Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-66960230-20260318193049",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.779092Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-D86E9296-20260318193110",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.780032Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-6781365A-20260318193130",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.780998Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-E71E98F5-20260318193150",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.781898Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-89B63975-20260318193210",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.782885Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-A64234ED-20260318193250",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.783908Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-552B31F3-20260318193310",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.784849Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-F995E16A-20260318193330",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.785821Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-28CB32E9-20260318193350",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.786935Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-9F974284-20260318193410",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.788426Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-B5997885-20260318193431",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.789689Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    },
+    {
+        "incident_id": "INC-D84D5DA4-20260318193451",
+        "action_taken": "CRITICAL_ALERT",
+        "timestamp": "2026-03-29T13:13:55.790725Z",
+        "result": "ESCALATED",
+        "notes": "Anomaly persists after 2 automated attempt(s)."
+    }
+]
