@@ -3,7 +3,7 @@
         "incident_id": "INC-32D946FE-20260318182333",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:23:33.513460Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -58,13 +58,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.686388Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-0B6CF325-20260318182353",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:23:53.711843Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -119,7 +121,9 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.688373Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-894878F4-20260318182414",
@@ -195,7 +199,7 @@
         "incident_id": "INC-95AFF62A-20260318182434",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:24:34.262173Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -281,13 +285,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 4 anomalous signal(s) on: api/normal, api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 4 anomalous signal(s) on: api/normal, api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.689530Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-A553D5D3-20260318182454",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:24:54.425904Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -342,13 +348,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.690720Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-FB6CFC8A-20260318182514",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:25:14.586406Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -412,13 +420,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.691882Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-9C72DB39-20260318182534",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:25:34.960835Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -482,13 +492,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.692842Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-A8B6B05D-20260318182555",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:25:55.247853Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -552,13 +564,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.694301Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-89D3743E-20260318182615",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:26:15.467193Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -622,13 +636,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.695414Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-A97A513F-20260318182635",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:26:35.616503Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -692,13 +708,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.696524Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-73D39BD2-20260318182655",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:26:55.916467Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -762,13 +780,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.697428Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-14F79C13-20260318182716",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:27:16.106474Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -823,13 +843,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.698249Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-DEECA6DF-20260318182736",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:27:36.250522Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -884,13 +906,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.699443Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-BE4F7386-20260318182756",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:27:56.561434Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -945,13 +969,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.700793Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-04A7BD69-20260318182816",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:28:16.724556Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1006,13 +1032,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.701881Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-DF28C131-20260318182836",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:28:36.884972Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1067,7 +1095,9 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.703146Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-EF374010-20260318182857",
@@ -1114,7 +1144,7 @@
         "incident_id": "INC-0AB97BDA-20260318182917",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:29:17.384116Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1147,13 +1177,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.704491Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-B41A940C-20260318182937",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:29:37.508354Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1186,13 +1218,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.705680Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-EEEB1337-20260318182957",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:29:57.635484Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1225,13 +1259,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.706890Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-3FF8D5F4-20260318184631",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:46:31.949555Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1308,13 +1344,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/normal, api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/normal, api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.708122Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-E0B56F47-20260318184652",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:46:52.179736Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1391,13 +1429,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/normal, api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/normal, api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.709292Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-0096DCD9-20260318184712",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:47:12.348179Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1474,13 +1514,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/normal, api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/normal, api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.710294Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-F57D49CA-20260318184732",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:47:32.534700Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1557,13 +1599,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/normal, api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/normal, api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.711237Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-477BA521-20260318184752",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:47:52.818497Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1640,13 +1684,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/normal, api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 3 anomalous signal(s) on: api/normal, api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.712612Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-2C0D191E-20260318184812",
         "incident_type": "ERROR_STORM",
         "severity": "CRITICAL",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:48:12.945491Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1701,13 +1747,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error."
+        "summary": "[CRITICAL] ERROR_STORM detected \u2014 2 anomalous signal(s) on: api/slow, api/error.",
+        "responded_at": "2026-03-29T13:01:41.714666Z",
+        "last_action_taken": "SEND_ALERT"
     },
     {
         "incident_id": "INC-148C8297-20260318184833",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:48:33.082480Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1740,13 +1788,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.716014Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-3A20C11F-20260318184853",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:48:53.233435Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1779,13 +1829,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.717243Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-995D8491-20260318184913",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:49:13.393290Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1818,13 +1870,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.718439Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-434CDEAD-20260318184933",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:49:33.487906Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1857,13 +1911,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.719727Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-63A7B2C9-20260318184953",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:49:53.623461Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1896,13 +1952,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.721804Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-1339FB1F-20260318185013",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:50:13.753042Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1935,13 +1993,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.743612Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-0644B462-20260318185033",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:50:33.890315Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -1974,13 +2034,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.745761Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-823143E1-20260318185054",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:50:54.085876Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2013,13 +2075,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.747058Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-ADE634AE-20260318185435",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:54:35.594957Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2061,13 +2125,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.761027Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-0AF7EA01-20260318185455",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:54:55.785994Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2109,7 +2175,9 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.763302Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-AA3C5AF9-20260318185515",
@@ -2163,7 +2231,7 @@
         "incident_id": "INC-304C3B6F-20260318185536",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:55:36.116838Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2205,13 +2273,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.764550Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-9A54209B-20260318185556",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:55:56.220436Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2244,13 +2314,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.765989Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-346A21B1-20260318185616",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:56:16.330834Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2283,7 +2355,9 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.767808Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-C53C3611-20260318185636",
@@ -2367,7 +2441,7 @@
         "incident_id": "INC-E9361F8C-20260318185716",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:57:16.690421Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2400,13 +2474,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.769899Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-F7F514A5-20260318185736",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:57:36.803144Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2439,13 +2515,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.771330Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-51E7E149-20260318185756",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:57:56.931266Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2478,7 +2556,9 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.772629Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-08168DAC-20260318185817",
@@ -2562,7 +2642,7 @@
         "incident_id": "INC-D1C7E2FA-20260318185857",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:58:57.343471Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2595,13 +2675,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.773926Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-41D031AD-20260318185917",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:59:17.536654Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2634,13 +2716,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.775203Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-5F7A7D03-20260318185937",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:59:37.736981Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2673,13 +2757,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.776490Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-1B288E54-20260318185957",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T18:59:57.874220Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2712,13 +2798,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.777682Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-D02D221F-20260318192949",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:29:49.566627Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2760,7 +2848,9 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.778858Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-AB756F61-20260318193009",
@@ -2814,7 +2904,7 @@
         "incident_id": "INC-CBFA83CF-20260318193029",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:30:29.754093Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2856,13 +2946,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.780101Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-66960230-20260318193049",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:30:49.892250Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2904,13 +2996,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 2 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.781798Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-D86E9296-20260318193110",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:31:10.004801Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2943,13 +3037,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.785660Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-6781365A-20260318193130",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:31:30.111868Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -2982,13 +3078,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.787126Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-E71E98F5-20260318193150",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:31:50.229070Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -3021,13 +3119,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.788590Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-89B63975-20260318193210",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:32:10.349075Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -3060,7 +3160,9 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.790143Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-FC8CEB4E-20260318193230",
@@ -3105,7 +3207,7 @@
         "incident_id": "INC-A64234ED-20260318193250",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:32:50.557829Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -3138,13 +3240,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.791534Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-552B31F3-20260318193310",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:33:10.650514Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -3177,13 +3281,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.805893Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-F995E16A-20260318193330",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:33:30.758813Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -3216,13 +3322,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.807371Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-28CB32E9-20260318193350",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:33:50.854881Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -3255,13 +3363,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.808591Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-9F974284-20260318193410",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:34:10.993477Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -3294,13 +3404,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.809966Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-B5997885-20260318193431",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:34:31.076266Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -3333,13 +3445,15 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.811196Z",
+        "last_action_taken": "RESTART_SERVICE"
     },
     {
         "incident_id": "INC-D84D5DA4-20260318193451",
         "incident_type": "LOCALIZED_ENDPOINT_FAILURE",
         "severity": "HIGH",
-        "status": "OPEN",
+        "status": "ESCALATED",
         "detected_at": "2026-03-18T19:34:51.171832Z",
         "affected_service": "laravel-api",
         "affected_endpoints": [
@@ -3372,6 +3486,8 @@
                 "error_rate": 1
             }
         },
-        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error."
+        "summary": "[HIGH] LOCALIZED_ENDPOINT_FAILURE detected \u2014 1 anomalous signal(s) on: api/error.",
+        "responded_at": "2026-03-29T13:01:41.812399Z",
+        "last_action_taken": "RESTART_SERVICE"
     }
 ]
